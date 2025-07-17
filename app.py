@@ -50,7 +50,7 @@ def run_ml_app():
     button = st.button ("Predict")
 
     #If button is clilcked
-    if button
+    if button:
         result = predict(gender, married, dependent, education, self_employed, applicant_income, coApplicant_income
                          ,loan_amount, loan_amount_term, credit_history, property_area)
         if resulut == 'Eligible':
